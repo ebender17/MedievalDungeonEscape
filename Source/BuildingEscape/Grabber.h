@@ -40,4 +40,10 @@ private:
 	//Return the first Actor within reach with a Physics Body 
 	FHitResult GetFirstPhysicsBodyInReach() const; 
 
+	//Return the LineTraceEnd 
+	FVector GetPlayerReach() const; 
+
+	//Get Players Position in World 
+	FVector GetPlayerWorldPos() const;
+
 };
